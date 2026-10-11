@@ -16,7 +16,7 @@ let 中转地址 = '';
 let 优选地址 = 'https://bestcf.pages.dev/tiancheng/hk.txt';
 // 家宽链式：落地换成网友共享的家庭宽带（日本、韩国居多），出网就是住宅 IP。
 // 改成 true 后，订阅地址后面加 ?target=vg 就是家宽专属订阅。客户端要求见 README「家宽链式」。
-let 家宽链式 = true;
+let 家宽链式 = false;
 // ============================================================================
 
 const 文本解码器 = new TextDecoder();
